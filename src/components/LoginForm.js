@@ -53,15 +53,15 @@ class LoginForm extends Component {
       <Card>
         <CardSection>
           <Input
-            placeholder="user@gmail.com"
-            label = "Email"
+            placeholder="user@mail.com"
+            label="Email"
             value={this.state.email}
             onChangeText={email => this.setState({ email })}
           />
         </CardSection>
 
         <CardSection>
-         <Input
+          <Input
             secureTextEntry
             placeholder="password"
             label="Password"
@@ -88,6 +88,6 @@ const styles = {
     alignSelf: 'center',
     color: 'red'
   }
-}
+};
 
 export default LoginForm;
